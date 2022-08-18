@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caneca Nerd</title>
+    <script type="text/javascript" src="bibliotecas/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="plugins/coin-slider.min.js"></script>
+    <link rel="stylesheet" href="plugins/coin-slider-styles.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="geral.css"/>
+    <link rel="stylesheet" type="text/css" href="reset.css"/>
+    <!--Exemplo de CSS  Interno-->
+    <style>
+       /* ul{
+            background-color: yellow;
+        }*/
+
+    </style>
+
+
+
+</head>
+<body>
+    <div id="topo">
+        <div id="logo">
+            <img src="imagens/caneca.png">
+           CanecaNerd &reg;
+             
+        </div> 
+        <nav>
+           <ul>
+             <li><a href="index.html"><img src="imagens/casa.png"></a></li>         
+             <li><a href="portifolio.html"><img src="imagens/carrinho.png"></a></li>
+             <li><a href="faleconosco.html"><img src="imagens/whatsapp.png"></a></li>
+             <li><a href="midia.html"><img src="imagens/instagram.png"></a></li>
+           </ul>
+        </nav>
+        
+        <div id="busca">
+            <form action="#" method="post">
+                pesquisa <input type="text">
+            </form>
+        </div>
+
+    </div>
+     
+    <div id='coin-slider'>
+        <a href="img01_url" target="_blank">
+          <img src='imagens/canecapersonal.png' >
+  
+           
+        </a>
+     
+        <a href="imgN_url">
+            <img src='imagens/canecapersonal2.png' >
+            <span>
+             
+            </span>
+        </a>
+    </div> 
+
+    <main>
+       
+    </main>
+    <div id="rodape">
+        CanecaNerd &copy;
+    </div>
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#coin-slider').coinslider({ width:1200,height:250, navigation: false, delay: 500});
+        });
+    </script>
+</body>
+</html>
+
